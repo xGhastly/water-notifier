@@ -65,7 +65,13 @@ java -jar water-notifier.jar
 
 Pra rodar com um clique (sem terminal):
 
-1. Crie um arquivo `water-notifier.desktop` com o conteúdo abaixo:
+1. Crie um arquivo `water-notifier.desktop`
+```bash
+nano water-notifier.desktop
+```
+
+
+2. cole o conteúdo abaixo:
 
 ```ini
 [Desktop Entry]
@@ -78,14 +84,14 @@ Type=Application
 Categories=Utility;
 ```
 
-2. Substitua `/CAMINHO/COMPLETO/ATÉ/` pelo caminho onde está seu `.jar`.
-
-3. Mova o `.desktop` pra sua área de trabalho ou aplicativos:
-
+4. Substitua `/CAMINHO/COMPLETO/ATÉ/` pelo caminho onde está seu `.jar`.
+5. Salve e feche (Ctrl+O, Enter, Ctrl+X).
+6. Adicione permissao de execução:
 ```bash
 chmod +x water-notifier.desktop
-mv water-notifier.desktop ~/Área\ de\ Trabalho/
 ```
+7. Mova o `.desktop` pra sua área de trabalho ou aplicativos:  
+
 
 Agora é só clicar e o app vai rodar em background te lembrando de beber água 🧃
 
