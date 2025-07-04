@@ -50,7 +50,7 @@ Se preferir, você pode empacotar o programa num `.jar` pra facilitar o uso:
 
 ```bash
 javac WaterNotifier.java
-jar cfe water-notifier.jar WaterNotifier WaterNotifier.class
+jar cfe water-notifier.jar WaterNotifier *.class
 ```
 
 Depois é só rodar com:
